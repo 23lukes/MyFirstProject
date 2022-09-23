@@ -18,11 +18,11 @@ public class HolyGrail {
         System.out.println("* A chat with the bridge keeper *\n" +
                 "Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.");
         // getting user imput
-        System.out.print("What is your name? ");
+        System.out.print("Question 1: What is your name? ");
         name = in.nextLine();
-        System.out.print("What is your quest? ");
+        System.out.print("Question 2: What is your quest? ");
         quest = in.nextLine();
-        System.out.print("What is your favorite color? ");
+        System.out.print("Question 3: What is your favorite color? ");
         color = in.nextLine();
 
         System.out.println("King Arthur says, \"You have to know these things when you're a " + "king, you know.\"");
